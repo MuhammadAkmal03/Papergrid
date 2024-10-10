@@ -1,0 +1,21 @@
+.top-text{
+    letter-spacing: 3px;
+}
+.navbar-brand img {
+    width: auto; /* to maintain the aspect ratio */
+    height: 30px; 
+    max-width: 100%; /* to avoid overflow */
+}
+.navbar-toggler-icon {
+    background-image: none; 
+}
+.navbar-toggler:after {
+    content: "\f0c9"; /* Font Awesome icon code for hamburger menu */
+    font-family: "Font Awesome 5 Free"; /* Use Font Awesome for the icon */
+    font-weight: 900; 
+    font-size: 1.5rem;
+    color: white;
+}
+.profile{
+    margin-left: 600px;
+}
